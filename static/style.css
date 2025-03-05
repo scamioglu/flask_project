@@ -1,0 +1,35 @@
+body {
+    background: url('/static/logo.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    background-color: #4682b4;
+    padding: 15px;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.btn-success {
+    background-color: #ff4040;
+    border: none;
+}
+.btn-success:hover {
+    background-color: #ff6666;
+}
+.table {
+    background: white;
+    border-radius: 5px;
+}
+h2, h3 {
+    color: #4682b4;
+}
